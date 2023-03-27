@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Document</title>
+   <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        #backdiv{
+            width: 100%;
+            height: 745px;
+            background-image: url(../assets/images/travelling\ image\ .jpg);
+            position: relative;
+            z-index: 1;
+        }
+        #div1{
+            width: 400px;
+            height: 350px;
+            background-color: rgba(255, 255, 255, 0.966);
+            border-radius: 15px;
+            position: absolute;
+            left: 900px;
+            top: 250px;
+            z-index: 2;
+            box-sizing: border-box;
+        }
+        h1{
+            padding-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        
+        input{
+            float: left;
+            width: 300px;
+            height: 40px;
+            margin-top: 10px;
+            margin-left: 40px;
+            border-radius: 40px;
+            padding-left: 10px;
+            border: 1px solid blue;
+        }
+        #div2{
+            padding-top: 50px;
+        }
+        #c{
+            width: 100px;
+            height: 30px;
+            margin-top: 25px;
+            margin-left: 150px;
+            background-color: aqua;
+        }
+        #c:hover{
+            font-weight: 900;
+        }
+        a{
+            float: left;
+        }
+        #d{
+            padding-left: 280px;
+            padding-top: 30px;
+            text-decoration: none;
+        }
+        #d:hover{
+            text-decoration: underline;
+        }
+        #e{
+            padding-left: 280px;
+            text-decoration: none;
+        }
+        #e:hover{
+            text-decoration: underline;
+        }
+
+   </style>
+</head>
+<body>
+    <div id="backdiv">
+        <div id="div1">    
+            <h1>Login</h1>
+            <div id="div2">
+                <form action="./page2.html" target="_blank">
+                    <input id="a" type="text" placeholder="username" >
+                    <input id="b" type="text" placeholder="password" >
+                    <input id="c" type="submit" value="SignIn">
+                </form>
+            </div>
+            <a id="d" href="https://www.facebook.com" target="_blank">create account</a>
+            <a id="e" href="https://www.instagram.com" target="_blank">forgot password</a>
+            
+        </div>
+    </div>
+</body>
+</html>
